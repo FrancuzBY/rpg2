@@ -16,7 +16,7 @@ public class Player {
     private String name;
 
     @Column(name = "title")
-    private String title;
+    public String title;
 
     @Column(name = "race")
     @Enumerated(EnumType.STRING)
